@@ -1,0 +1,15 @@
+{
+  "name": "baoshuo.css",
+  "version": "0.0.0",
+  "description": "A useless css framework.",
+  "repository": "https://github.com/renbaoshuo/baoshuo.css.git",
+  "author": "Ren Baoshuo <i@baoshuo.ren>",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "css",
+    "framework",
+    "responsive",
+    "front-end",
+    "helper"
+  ]
+}
