@@ -1,0 +1,7 @@
+last 5 versions
+>= 0.5%
+Chrome >= 40
+Firefox >= 40
+ie >= 11
+Safari >= 9
+not dead

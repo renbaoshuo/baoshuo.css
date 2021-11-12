@@ -1,0 +1,14 @@
+{
+    "tabWidth": 4,
+    "endOfLine": "lf",
+    "singleQuote": true,
+    "printWidth": 100,
+    "overrides": [
+        {
+            "files": "**/*.md",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
