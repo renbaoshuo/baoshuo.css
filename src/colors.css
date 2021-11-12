@@ -1,0 +1,215 @@
+/**
+ * Colors
+ */
+
+:root {
+    /* Text */
+    --text: #24292f;
+    --text-grey: #6e7781;
+    --text-info: #0969da;
+    --text-success: #1a7f37;
+    --text-warning: #9a6700;
+    --text-error: #cf222e;
+    --text-done: #8250df;
+
+    /* Background */
+    --bg: #ffffff;
+    --bg-grey: #eaeef2;
+    --bg-grey-t: rgba(175, 184, 193, 0.4);
+    --bg-info: #ddf4ff;
+    --bg-info-t: rgba(84, 174, 255, 0.4);
+    --bg-success: #dafbe1;
+    --bg-success-t: rgba(74, 194, 107, 0.4);
+    --bg-warning: #fff8c5;
+    --bg-warning-t: rgba(212, 167, 44, 0.4);
+    --bg-error: #ffebe9;
+    --bg-error-t: rgba(255, 129, 130, 0.4);
+    --bg-done: #fbefff;
+    --bg-done-t: rgba(194, 151, 255, 0.4);
+
+    /* Color scheme */
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme for more information */
+    color-scheme: light;
+}
+
+/**
+ * ==========
+ *    Text
+ * ==========
+ */
+
+/* Default text color */
+.bs-text {
+    color: var(--text);
+}
+
+/* Reversed text color */
+.bs-text-r {
+    color: var(--bg);
+}
+
+/* Grey text color */
+.bs-text-grey {
+    color: var(--text-grey);
+}
+
+/* Reversed text color */
+.bs-text-grey-r {
+    color: var(--bg-grey);
+}
+
+/* Info text color */
+.bs-text-info {
+    color: var(--text-info);
+}
+
+/* Reversed info text color */
+.bs-text-info-r {
+    color: var(--bg-info);
+}
+
+/* Success text color */
+.bs-text-success {
+    color: var(--text-success);
+}
+
+/* Reversed success text color */
+.bs-text-success-r {
+    color: var(--bg-success);
+}
+
+/* Warning text color */
+.bs-text-warning {
+    color: var(--text-warning);
+}
+
+/* Reversed warning text color */
+.bs-text-warning-r {
+    color: var(--bg-warning);
+}
+
+/* Error text color */
+.bs-text-error {
+    color: var(--text-error);
+}
+
+/* Reversed error text color */
+.bs-text-error-r {
+    color: var(--bg-error);
+}
+
+/* Done text color */
+.bs-text-done {
+    color: var(--text-done);
+}
+
+/* Reversed done text color */
+.bs-text-done-r {
+    color: var(--bg-done);
+}
+
+/**
+ * ==========
+ * Background
+ * ==========
+ */
+
+/* Default background */
+.bs-bg {
+    background: var(--bg);
+}
+
+/* Reversed default background */
+.bs-bg-r {
+    background: var(--text);
+}
+
+/* Grey background */
+.bs-bg-grey {
+    background: var(--bg-grey);
+}
+
+/* Transparent grey background */
+.bs-bg-grey-t {
+    background: var(--bg-grey-t);
+}
+
+/* Reversed grey background */
+.bs-bg-grey-r {
+    background: var(--text-grey);
+}
+
+/* Info background */
+.bs-bg-info {
+    background: var(--bg-info);
+}
+
+/* Transparent info background */
+.bs-bg-info-t {
+    background: var(--bg-info-t);
+}
+
+/* Reversed info background */
+.bs-bg-info-r {
+    background: var(--text-info);
+}
+
+/* Success background */
+.bs-bg-success {
+    background: var(--bg-success);
+}
+
+/* Transparent success background */
+.bs-bg-success-t {
+    background: var(--bg-success-t);
+}
+
+/* Reversed success background */
+.bs-bg-success-r {
+    background: var(--text-success);
+}
+
+/* Warning background */
+.bs-bg-warning {
+    background: var(--bg-warning);
+}
+
+/* Transparent warning background */
+.bs-bg-warning-t {
+    background: var(--bg-warning-t);
+}
+
+/* Reversed warning background */
+.bs-bg-warning-r {
+    background: var(--text-warning);
+}
+
+/* Error background */
+.bs-bg-error {
+    background: var(--bg-error);
+}
+
+/* Transparent error background */
+.bs-bg-error-t {
+    background: var(--bg-error-t);
+}
+
+/* Reversed error background */
+.bs-bg-error-r {
+    background: var(--text-error);
+}
+
+/* Done background */
+.bs-bg-done {
+    background: var(--bg-done);
+}
+
+/* Transparent done background */
+.bs-bg-done-t {
+    background: var(--bg-done-t);
+}
+
+/* Reversed done background */
+.bs-bg-done-r {
+    background: var(--text-done);
+}
