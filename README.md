@@ -32,7 +32,7 @@ npm install baoshuo.css --save
 
 ## Documentation
 
-See [documentation](./docs/README.md).
+See [documentation](./docs/README.md#Documentation).
 
 ## Browser Support
 
