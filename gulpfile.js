@@ -6,7 +6,6 @@ const header = require('gulp-header');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 const prettier = require('gulp-prettier');
-const less = require('gulp-less');
 const pkg = require('./package.json');
 
 const banner = [
@@ -26,8 +25,7 @@ const configs = {
 
 gulp.task('build', () =>
     gulp
-        .src('src/**/*.less')
-        .pipe(less())
+        .src('src/**/*.css')
         .pipe(concat('baoshuo.css'))
         .pipe(header(fs.readFileSync('node_modules/modern-normalize/modern-normalize.css')))
         .pipe(header(banner, { pkg }))
@@ -39,6 +37,6 @@ gulp.task('build', () =>
         .pipe(gulp.dest('dist'))
 );
 
-gulp.task('watch', () => gulp.watch('src/**/*.less', gulp.task('build')));
+gulp.task('watch', () => gulp.watch('src/**/*.css', gulp.task('build')));
 
 gulp.task('default', gulp.task('build'));
