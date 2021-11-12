@@ -1,0 +1,37 @@
+/**
+ * Shadow
+ */
+
+:root {
+    /* Shadow */
+    --shadow-s: 0 1px 0 rgba(27, 31, 36, 0.04);
+    --shadow-m: 0 3px 6px rgba(140, 149, 159, 0.15);
+    --shadow-l: 0 8px 24px rgba(140, 149, 159, 0.2);
+    --shadow-xl: 0 12px 28px rgba(140, 149, 159, 0.3);
+}
+
+/**
+ * ==========
+ *   Shadow
+ * ==========
+ */
+
+/* Small shadow */
+.bs-shadow-s {
+    box-shadow: var(--shadow-s);
+}
+
+/* Medium shadow */
+.bs-shadow-m {
+    box-shadow: var(--shadow-m);
+}
+
+/* Large shadow */
+.bs-shadow-l {
+    box-shadow: var(--shadow-l);
+}
+
+/* 1x large shadow */
+.bs-shadow-xl {
+    box-shadow: var(--shadow-xl);
+}
