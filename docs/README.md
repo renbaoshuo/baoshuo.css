@@ -30,6 +30,22 @@ npm install baoshuo.css --save
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/baoshuo.css" />
 ```
 
+### Compiling CSS
+
+baoshuo.css uses Gulp for compiling CSS. Firstly you need to install `yarn`, which is used to manage Gulp and other dependencies.
+
+Then, you can build the CSS file from the command line:
+
+- Navigate to the root directory of `baoshuo.css`.
+- Run `yarn install`. YARN will install all dev dependencies as listed in `package.json`.
+- When completed, run `gulp build` task to compile CSS and minify files.
+- You can find compiled CSS files in /dist directory.
+
+All available Gulp tasks:
+
+- `gulp build` - compile Sass to CSS and minify files (default)
+- `gulp watch` - watch file changes and re-compile CSS files
+
 ## Documentation
 
 _TODO_
