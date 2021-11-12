@@ -1,0 +1,123 @@
+/**
+ * Border
+ */
+
+:root {
+    /* Border */
+    --border: 1px solid var(--border-color);
+
+    /* Border color */
+    --border-color: #d0d7de;
+    --border-color-dark: #57606a;
+    --border-color-info: #0969da;
+    --border-color-success: #2da44e;
+    --border-color-warning: #bf8700;
+    --border-color-error: #cf222e;
+    --border-color-done: #8250df;
+}
+
+/**
+ * ==========
+ *   Border
+ * ==========
+ */
+
+/* Default border */
+.bs-border {
+    border: var(--border);
+}
+
+/* Left border */
+.bs-border-x,
+.bs-border-l {
+    border-left: var(--border);
+}
+
+/* Right border */
+.bs-border-x,
+.bs-border-r {
+    border-right: var(--border);
+}
+
+/* Top border */
+.bs-border-y,
+.bs-border-t {
+    border-top: var(--border);
+}
+
+/* Bottom border */
+.bs-border-y,
+.bs-border-b {
+    border-bottom: var(--border);
+}
+
+/**
+ * ==========
+ * No Border
+ * ==========
+ */
+
+/* No all border */
+.bs-border-0 {
+    border: none;
+}
+
+/* No left border */
+.bs-border-x-0,
+.bs-border-l-0 {
+    border-left: none;
+}
+
+/* No right border */
+.bs-border-x-0,
+.bs-border-r-0 {
+    border-right: none;
+}
+
+/* No top border */
+.bs-border-y-0,
+.bs-border-t-0 {
+    border-top: none;
+}
+
+/* No bottom border */
+.bs-border-y-0,
+.bs-border-b-0 {
+    border-bottom: none;
+}
+
+/**
+ * ==========
+ * Border Color
+ * ==========
+ */
+
+/* Dark border color */
+.bs-border-dark {
+    border-color: var(--border-color-dark);
+}
+
+/* Info border color */
+.bs-border-info {
+    border-color: var(--border-color-info);
+}
+
+/* Success border color */
+.bs-border-success {
+    border-color: var(--border-color-success);
+}
+
+/* Warning border color */
+.bs-border-warning {
+    border-color: var(--border-color-warning);
+}
+
+/* Error border color */
+.bs-border-error {
+    border-color: var(--border-color-error);
+}
+
+/* Done border color */
+.bs-border-done {
+    border-color: var(--border-color-done);
+}
